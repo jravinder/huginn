@@ -5,7 +5,7 @@ gem 'mysql2', '~> 0.3.13'
 gem 'devise', '~> 3.0.0'
 gem 'kaminari', '~> 0.14.1'
 gem 'bootstrap-kaminari-views', '~> 0.0.2'
-gem 'rufus-scheduler', '~> 3.0.7', require: false
+gem 'rufus-scheduler', '~> 3.0.7'
 gem 'json', '>= 1.7.7'
 gem 'jsonpath', '~> 0.5.3'
 gem 'twilio-ruby', '~> 3.10.0'

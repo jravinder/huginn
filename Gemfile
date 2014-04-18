@@ -5,7 +5,7 @@ gem 'mysql2', '~> 0.3.13'
 gem 'devise', '~> 3.0.0'
 gem 'kaminari', '~> 0.14.1'
 gem 'bootstrap-kaminari-views', '~> 0.0.2'
-gem 'rufus-scheduler', '~> 3.0.7', require: false
+gem 'rufus-scheduler', '~> 3.0.7'
 gem 'json', '>= 1.7.7'
 gem 'jsonpath', '~> 0.5.3'
 gem 'twilio-ruby', '~> 3.10.0'
@@ -14,6 +14,7 @@ gem 'ruby-growl', '~> 4.1.0'
 gem 'delayed_job', '~> 4.0.0'
 gem 'delayed_job_active_record', '~> 4.0.0'
 gem 'daemons', '~> 1.1.9'
+gem "net-ssh", "~> 2.7.0"
 
 # To enable DelayedJobWeb, see the 'Enable DelayedJobWeb' section of the README.
 

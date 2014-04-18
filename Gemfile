@@ -17,7 +17,7 @@ gem 'delayed_job_active_record'#, "~> 0.3.3" # newer was giving a strange MySQL 
 gem "daemons"
 
 # To enable DelayedJobWeb, see the 'Enable DelayedJobWeb' section of the README.
-# gem "delayed_job_web"
+gem "delayed_job_web"
 
 gem 'foreman'
 gem 'dotenv-rails', :groups => [:development, :test]
@@ -52,6 +52,12 @@ end
 group :development do
   gem 'binding_of_caller'
   gem 'better_errors'
+  gem 'capistrano'
+  gem 'rvm-capistrano'
+end
+
+group :production do
+  gem 'unicorn'
 end
 
 group :development, :test do
